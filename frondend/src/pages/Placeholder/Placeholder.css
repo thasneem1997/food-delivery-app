@@ -1,0 +1,38 @@
+.placeholder-container {
+    margin: 152px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.total{
+    margin-top: 35px;
+}
+.col1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.col2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.form2 input[type="text"]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+@media(max-width:750px){
+    .placeholder-container {
+        margin: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 42px;
+        justify-content: space-between;
+    }
+}

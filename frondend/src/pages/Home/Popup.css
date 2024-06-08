@@ -1,0 +1,97 @@
+.popup-head {
+    display: flex;
+    flex-direction: row;
+}
+
+.popup-head img {
+    width: 11px;
+    margin-left: 225px;
+    height: 10px;
+
+}
+
+.popup-head h1 {
+    font-size: 38px;
+    margin-left: 14px;
+}
+
+.popup {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color: #00000090;
+}
+
+.popup-container {
+    background-color: white;
+    place-self: center;
+    padding: 25px 30px;
+    animation: fadein 0.5s;
+    /* margin: 10px 153px; */
+    width: 30%;
+    border-radius: 5px;
+
+
+}
+
+.form-container {
+    margin-left: 17px !important;
+}
+
+form input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 13px 0;
+    place-self: center;
+
+
+}
+
+form input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 13px 0;
+    place-self: center;
+
+}
+
+form input[type="checkbox"] {
+    margin-top: 4px;
+
+}
+
+form button {
+    width: 90%;
+    padding: 10px;
+    margin: 13px 0;
+    background-color: rgb(243, 68, 37);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form p {
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.para {
+    font-size: 14px;
+    margin-left: 23px;
+}
+
+span {
+    color: tomato;
+    cursor: pointer;
+    margin-left: 5px;
+}

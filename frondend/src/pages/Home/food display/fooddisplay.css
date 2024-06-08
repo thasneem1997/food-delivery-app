@@ -1,0 +1,30 @@
+.food-container{
+  display: grid;
+  margin-left: 55px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px;
+  row-gap: 25px;
+  margin-right: 121px;
+  width: 93%;
+}
+  .head{
+    margin-left: 52px;
+   }
+  .heading img{
+    width: 83px;
+    height: 18px;
+    margin-top: 13px;
+  }
+  .cart-container{
+    display: flex;
+    position: absolute;
+    background: white;
+    margin-top: -50px;
+    margin-left: 179px;
+    gap: 5px;
+    border-radius: 17px;
+  }
+  .cart-container p{
+    margin-top: 5px;
+  }
+ 

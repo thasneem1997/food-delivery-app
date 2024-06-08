@@ -1,0 +1,24 @@
+.download-container{
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px;
+}
+.download-container h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.download-btn{
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+
+}
+.download-btn a{
+    margin-left: 40px;
+}
+@media(max-width:750px){
+    .download-btn{
+        margin-left: -64px !important;
+    }
+}
+

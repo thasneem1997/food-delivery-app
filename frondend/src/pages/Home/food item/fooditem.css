@@ -1,0 +1,41 @@
+
+.fooditem-container h2{
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.desc{
+    max-width: 321px;
+    min-height: 53px;
+    font-size: 15px;
+    margin: 10px;
+    color: #778585;    
+    width: 225px;
+
+}
+.content img{
+    border-radius: 10px 10px 0 0;
+    max-width: 270px;
+}
+.heading{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+.price{
+    color: #ef5138;
+    margin-top: -5px;
+    margin-left: 12px !important;
+}
+.fooditem-container{
+    box-shadow: 0px 0px 10px #eae6e6;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+    
+
+}
+.addimg{
+    position: absolute;
+    margin-top: 145px;
+    margin-left: -59px;
+}

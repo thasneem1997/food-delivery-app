@@ -1,0 +1,91 @@
+.logo {
+    margin: 38px 65px;
+
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+    margin-top: -57px;
+    margin-left: 378px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: black;
+}
+.btn-n{
+    position: absolute;
+    padding: 13px 32px;
+    margin-top: -26px;
+    font-size: 15px;
+    margin-left: 6px;
+    background-color: transparent;
+    border-radius: 95px;
+    border: 1px solid #a29595;
+    cursor: pointer;
+    transition: 0.3ms;
+}
+.btn-n:hover{
+    background-color: tomato;
+}
+
+
+.nav1 li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav2 {
+    display: flex;
+    margin: -37px 1062px;
+    align-items: center;
+    gap: 20px;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+.active {
+    border-bottom: 1px solid tomato;
+}
+
+.dot {
+    width: 10px;
+    position: relative;
+    top: -20px;
+    left: 0px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e63b14;
+    margin: 0 10px;
+}
+
+
+@media(max-width:1050px) {
+    .navbar {
+        width: 100px;
+    }
+}
+@media (max-width: 900px) {
+    .nav1 {
+        display: none;
+    }
+    .nav2 {
+        margin-left: 484px;
+        margin-top: -72px;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav1 {
+        display: none;
+    }
+    .nav2 {
+        margin-left: 203px !important;
+        margin-top: -69px;
+        position: absolute;
+    }
+}

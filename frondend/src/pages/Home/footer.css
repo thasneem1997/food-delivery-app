@@ -1,0 +1,131 @@
+.footer {
+    background-color: #323232;
+    display: grid;
+    color: #d9d9d9;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    width: 1349px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.content-left p {
+    color: rgb(218, 216, 209);
+    width: 421px;
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgb(175, 169, 169);
+}
+
+.footerlogo {
+    width: 200px;
+    margin-left: -3px;
+
+
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: hidden;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.content-middle ul {
+    list-style: none;
+    margin-top: 20px;
+
+}
+.content-middle h1{
+    color: white;
+    font-size: 25px;
+}
+
+.content-middle ul li {
+
+    margin-top: 7px;
+    margin-left: 6px;
+    color: rgb(175, 169, 169);
+    cursor: pointer;
+}
+.content-right ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.content-right h1{
+    color: white;
+    font-size: 25px;
+}
+.content-right ul li{
+    margin-top: 7px;
+    margin-left: 6px;
+    color: rgb(175, 169, 169);
+    cursor: pointer;
+}
+.middle p{
+    color: rgb(175, 169, 169);
+    font-size: 15px;
+    margin-top: 41px;
+    margin-left: -114px;
+    position: absolute;
+}
+.hr{
+    width: 210%;
+    border: none;
+    height: 1px;
+    background-color: rgb(175, 169, 169);
+    margin-top: 20px;
+}
+@media(max-width:750px){
+    .footer{
+         display: grid;
+         grid-template-columns: auto;
+         gap:49px;
+         padding: 50px;
+         width: 100%;
+ 
+    }
+    .content-left p {
+        width: 145px;
+    }
+    .hr {
+        width: 68%;
+        margin-top: -2px;
+        position: relative;
+    }
+.middle p{
+    margin-top: -19px;
+    margin-left: -13px;
+}
+  
+}
+@media(max-width:900px){
+    .footer{
+         display: grid;
+         grid-template-columns: auto;
+         gap:49px;
+         padding: 50px;
+         width: 100%;
+ 
+    }
+    .content-left p {
+        width: 145px;
+    }
+    .hr {
+        width: 68%;
+        margin-top: -2px;
+        position: relative;
+    }
+.middle p{
+    margin-top: -19px;
+    margin-left: -13px;
+}
+  
+}
