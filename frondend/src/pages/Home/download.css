@@ -1,24 +1,56 @@
-.download-container{
-  margin: 0 auto;
-  text-align: center;
-  padding: 90px;
+.download-container {
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px;
 }
-.download-container h1{
-    font-size: 45px;
-    font-weight: 500;
+
+.download-container h1 {
+    font-size: 40px;
+    /* Base font size */
+    text-align: center;
+    /* Center the text */
+    margin: 20px;
+    /* Add some margin around the text */
+    padding: 10px;
+    /* Add some padding for better spacing */
+    line-height: 1.5;
+    /* Improve line spacing for readability */
+    font-family: Arial, sans-serif;
+    /* Use a web-safe font */
 }
-.download-btn{
+
+.download-btn {
     margin: 0 auto;
     text-align: center;
     padding: 30px;
 
 }
-.download-btn a{
+
+.download-btn a {
     margin-left: 40px;
 }
-@media(max-width:750px){
-    .download-btn{
+
+@media(max-width:750px) {
+    .download-btn {
         margin-left: -64px !important;
     }
+
+    .download-container h1 {
+        font-size: 24px;
+        padding: 7px;
+        margin-top: -89px;
+        margin-bottom: 0px;
+
+    }
+
+    .download-btn img {
+        width: 150px !important;
+    }
+.download-container{
+    margin: 0 auto;
+    text-align: center;
+    padding: 96px 21px;
+    margin-bottom: 0px;
 }
 
+}

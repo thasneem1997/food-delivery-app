@@ -39,3 +39,11 @@
     margin-top: 145px;
     margin-left: -59px;
 }
+@media(max-width:750px) {
+
+.fooditem-container{
+    padding: 21px 34px;
+    margin: 8px 17px;
+    width: 351px;
+}
+}

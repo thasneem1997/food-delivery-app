@@ -71,9 +71,12 @@
     }
 
     .menu-container hr {
-        width: 476px !important;
+        width: 357px !important;
     }
-   
+   .head{
+    margin-top: 43px;
+    margin-bottom: 13px;
+   }
 }
 
 @media(max-width:900px) {
