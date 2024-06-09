@@ -156,6 +156,11 @@
         gap: 43px;
 
     }
+    .hr2{
+        width: 515px;
+        margin-left: -81px;
+        margin-top: 50px;
+    }
 
     .cart-item {
         display: flex;
@@ -202,10 +207,12 @@
     }
 
     .hr1 {
-        width: 300px;
+        width: 514px;
+        margin-bottom: -37px;
+        margin-left: -49px;
     }
     .cross{
-        margin-left: 176px !important;
+        margin-left: 140px !important;
     }
     .totalitem{
         display: inline-block;
